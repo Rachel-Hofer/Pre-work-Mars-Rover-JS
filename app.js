@@ -21,16 +21,17 @@ turnLeft = rover => {
       rover.direction = "N";
   }
 };
-console.log('default direction'+ rover.direction)
+
+// console.log('default direction'+ rover.direction)
 //N
 turnLeft(rover)
-console.log('rover direction after turning left'+ rover.direction)
+// console.log('rover direction after turning left'+ rover.direction)
 //W
 turnLeft(rover)
-console.log('rover direction after turning left again'+ rover.direction)
+// console.log('rover direction after turning left again'+ rover.direction)
 //S
 turnLeft(rover)
-console.log('rover direction after turning left for a 3rd time'+ rover.direction)
+// console.log('rover direction after turning left for a 3rd time'+ rover.direction)
 //E
 
 turnRight = rover => {
@@ -48,16 +49,17 @@ turnRight = rover => {
       rover.direction = "N";
   }
 };
+
 turnLeft(rover) //to start back at default direction
-console.log('default direction'+ rover.direction)
+// console.log('default direction'+ rover.direction)
 //N
 turnRight(rover)
-console.log('rover direction after turning right'+ rover.direction)
+// console.log('rover direction after turning right'+ rover.direction)
 //E
 turnRight(rover)
-console.log('rover direction after turning right again'+ rover.direction)
+// console.log('rover direction after turning right again'+ rover.direction)
 //S
 turnRight(rover)
-console.log('rover direction after turning right for a 3rd time'+ rover.direction)
+// console.log('rover direction after turning right for a 3rd time'+ rover.direction)
 //W
 
